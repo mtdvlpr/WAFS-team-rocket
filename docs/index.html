@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="assets/css/main.css" />
 
     <!-- Scripts -->
+    <script type="importmap">
+      {
+        "imports": {
+          "api": "/WAFS-team-rocket/assets/js/api.js",
+          "team": "/WAFS-team-rocket/assets/js/team.js"
+        }
+      }
+    </script>
     <script type="module" src="main.js"></script>
 
     <!-- Title and base URL -->
@@ -17,6 +25,25 @@
     <base href="/WAFS-team-rocket/" />
   </head>
   <body>
-    <p>Hello World!</p>
+    <!-- Header -->
+    <header>
+      <h1 id="title">Loading...</h1>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- Team article -->
+      <article>
+        <h2>Members</h2>
+        <div id="member-container">
+          <ul>
+            <li>Loading...</li>
+            <li>Loading...</li>
+            <li>Loading...</li>
+            <li>Loading...</li>
+          </ul>
+        </div>
+      </article>
+    </main>
   </body>
 </html>

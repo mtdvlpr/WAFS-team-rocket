@@ -17,5 +17,16 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "liveServer.settings.root": "/docs",
   "liveServer.settings.mount": [["/WAFS-team-rocket/", "./docs"]],
-  "cSpell.words": ["noreferrer", "pokedex", "Pokédex", "WAFS"]
+  "cSpell.words": [
+    "Avenir",
+    "mtdvlpr",
+    "Nesli",
+    "neslihva",
+    "noreferrer",
+    "pokedex",
+    "Pokédex",
+    "WAFS",
+    "Yeliz",
+    "yelunl"
+  ]
 }
