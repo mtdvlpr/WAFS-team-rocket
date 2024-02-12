@@ -14,7 +14,7 @@ Every feature should have its own CSS and JavaScript files. The base structure o
 
 ### CSS
 
-The styles for the feature should go in a `./docs/assets/css/feature.css` file and imported in the [`./docs/assets/main.css`](./docs/assets/main.css) file in the following manner:
+The styles for the feature should go in a `./docs/assets/css/feature.css` file and imported in the [`./docs/assets/css/main.css`](./docs/assets/css/main.css) file in the following manner:
 
 ```css
 @import url("./feature.css");
