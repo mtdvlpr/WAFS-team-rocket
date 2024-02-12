@@ -22,12 +22,13 @@ The styles for the feature should go in a `./docs/assets/css/feature.css` file a
 
 ### JavaScript
 
-JavaScript logic should go in a `./docs/assets/js/feature.js` file and be improted in the `./docs/main.js` file. To import the logic, first its path must be defined in `./docs/index.html`:
+JavaScript logic should go in a `./docs/assets/js/feature.js` file and be imported in the `./docs/main.js` file. To import the logic, first its path must be defined in `./docs/index.html`:
 
 ```html
 <script type="importmap">
   {
     "imports": {
+      // other imports are also defined here
       "feature": "/WAFS-team-rocket/assets/js/feature.js"
     }
   }
