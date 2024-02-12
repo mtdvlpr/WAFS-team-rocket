@@ -15,8 +15,8 @@
   "cSpell.enabled": true,
   "cSpell.language": "en,nl",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "liveServer.settings.root": "/docs",
-  "liveServer.settings.mount": [["/WAFS-team-rocket/", "./docs"]],
+  "liveServer.settings.root": "/src",
+  "liveServer.settings.mount": [["/WAFS-team-rocket/", "./src"]],
   "cSpell.words": [
     "Avenir",
     "mtdvlpr",
