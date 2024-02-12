@@ -1,11 +1,35 @@
 # Contributing
 
-We werken op de volgende wijze:
+We work in the following manner:
 
-## Git werkwijze
+## Git Workflow
 
-Voor elke feature maken we een aparte branch. Als de feature klaar is voor review, wordt er een merge request aangemaakt, zodat andere teamleden feedback kunnen geven. Als minimaal 1 andere teamlid de feature goedkeurt, wordt het ge-merged en automatisch ge-deployed.
+Every feature should be developed in a seperate branch. Once the feature is ready for review, a merge request is made, so that any other team members can give feedback on the code. When one or more team members approved the changes, the merge request can be merged and will be automatically deployed.
 
 ## Features
 
-Elke feature heeft in principe z'n eigen CSS en JavaScript bestanden. De basis layout van de feature wordt in het `index.html` bestand gedefinieerd. De styling komt in een apart CSS bestand in `./docs/assets/css` en wordt via `./docs/assets/css/main.css` ge-import. Eventuele JavaScript logica komt in een apart bestand in de `./docs/assets/js` folder en wordt in `./docs/main.js` ingeladen.
+Every feature should have its own CSS and JavaScript files. The base structure of the feature should be defined in `./docs/index.html`. The styles for the feature should go in a `./docs/assets/css/feature.css` file and imported in the `./docs/assets/main.css` file in the following manner:
+
+```css
+@import url("./feature.css");
+```
+
+JavaScript logic should go in a `./docs/assets/js/feature.js` file and be improted in the `./docs/main.js` file. To import the logic, first its path must be defined in `./docs/index.html`:
+
+```html
+<script type="importmap">
+  {
+    "imports": {
+      "feature": "/WAFS-team-rocket/assets/js/feature.js"
+    }
+  }
+</script>
+```
+
+Then, the file can be used in `./docs/main.js` in the following way:
+
+```js
+import { setSomeFeature } from "feature";
+
+setSomeFeature(data)
+```
