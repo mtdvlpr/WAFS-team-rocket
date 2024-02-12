@@ -2,6 +2,6 @@
 
 ## Description
 
-Dit is een opdracht voor het vak Web App From Scratch. De opdracht is een groepsapplicatie te maken die data ophaalt van onze individuele applicaties. We hebben onze data allemaal beschikbaar gemaakt in een `me.json` bestand. Het project is gemaakt met vanilla HTML, CSS en JavaScript.
+This is an assignment for Web App From Scratch. The assignment is to create a group application that fetches data from our individual applications. We all provided our data in a `me.json` file at the root of our applications. The project is built with vanilla HTML, CSS and JavaScript.
 
 [View live demo](https://mtdvlpr.github.io/WAFS-team-rocket/)
