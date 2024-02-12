@@ -26,6 +26,13 @@ body {
   min-height: 100vh;
 }
 
+#app {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 /* Light mode */
 @media (prefers-color-scheme: light) {
   :root {
